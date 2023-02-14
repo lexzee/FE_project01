@@ -569,8 +569,16 @@ html {
   margin-bottom: 4rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mb-32 {
   margin-bottom: 8rem;
+}
+
+.mr-36 {
+  margin-right: 9rem;
 }
 
 .mt-10 {
@@ -585,26 +593,6 @@ html {
   margin-top: 8rem;
 }
 
-.mr-3 {
-  margin-right: 0.75rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mr-36 {
-  margin-right: 9rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .flex {
   display: flex;
 }
@@ -615,10 +603,6 @@ html {
 
 .hidden {
   display: none;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .w-1 {
@@ -677,10 +661,6 @@ html {
   border-radius: 9999px;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .border {
   border-width: 1px;
 }
@@ -703,6 +683,22 @@ html {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
+.bg-curiosity-mobile {
+  background-image: url(./images/mobile/image-curiosity.jpg);
+}
+
+.bg-deep-mobile {
+  background-image: url(./images/mobile/image-deep-earth.jpg);
+}
+
+.bg-from-mobile {
+  background-image: url(./images/mobile/image-from-above.jpg);
+}
+
+.bg-grid-mobile {
+  background-image: url(./images/mobile/image-grid.jpg);
+}
+
 .bg-hero-mobile {
   background-image: url(./images/mobile/image-hero.jpg);
 }
@@ -711,44 +707,20 @@ html {
   background-image: url(./images/mobile/image-interactive.jpg);
 }
 
-.bg-deep-mobile {
-  background-image: url(./images/mobile/image-deep-earth.jpg);
-}
-
 .bg-night-mobile {
   background-image: url(./images/mobile/image-night-arcade.jpg);
-}
-
-.bg-soccer-mobile {
-  background-image: url(./images/mobile/image-soccer-team.jpg);
-}
-
-.bg-grid-mobile {
-  background-image: url(./images/mobile/image-grid.jpg);
-}
-
-.bg-from-mobile {
-  background-image: url(./images/mobile/image-from-above.jpg);
 }
 
 .bg-pocket-mobile {
   background-image: url(./images/mobile/image-pocket-borealis.jpg);
 }
 
-.bg-curiosity-mobile {
-  background-image: url(./images/mobile/image-curiosity.jpg);
-}
-
-.bg-contain {
-  background-size: contain;
+.bg-soccer-mobile {
+  background-image: url(./images/mobile/image-soccer-team.jpg);
 }
 
 .bg-local {
   background-attachment: local;
-}
-
-.bg-repeat {
-  background-repeat: repeat;
 }
 
 .bg-no-repeat {
@@ -761,18 +733,6 @@ html {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-0 {
-  padding: 0px;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .px-5 {
