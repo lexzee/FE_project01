@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <!--<link href="./dist/output.css" rel="stylesheet">-->
+  <link href="main.css" rel="stylesheet">
   <!--<script src="https://cdn.tailwindcss.com"></script>-->
   
   <title>Frontend Mentor | Loopstudios landing page</title>
@@ -19,16 +19,23 @@
 <body>
   <!--<img src="./images/logo.svg" style="background-color:black">>-->
   <header>
-    <div>
-      <img src="./images/logo.svg" style="background-color:black">
-      <nav>
-        <li>About</li>
-        <li>Careers</li>
-        <li>Events</li>
-        <li>Products</li>
-        <li>Support</li>
-      </nav>
+  <!-- Navigation -->
+  <nav class="relative container mx-auto p-6">
+    <div class="flex items-center justify-between">
+      <!-- logo -->  
+      <div class="pt-2">
+        <img src="./images/logo.svg" style="background-color:black">
+      </div>
+      <!-- nav links -->
+      <div class="hidden lg:flex space-x-6">
+        <a href="#" class="hover:text-darkGray">About</a>
+        <a href="#" class="hover:text-darkGray">Careers</a>
+        <a href="#" class="hover:text-darkGray">Events</a>
+        <a href="#" class="hover:text-darkGray">Products</a>
+        <a href="#" class="hover:text-darkGray">Support</a>
+      </div>
     </div>
+  </nav>
     <h1>Immersive experiences that deliver</h1>
   </header>
   <div class="showcase">
@@ -41,34 +48,34 @@
     <h1>Our creations</h1>
     <div>
       <div>
-      <img src="./images/mobile/image-deep-earth.jpg" alt="">
+      <img src="./images/mobile/image-deep-earth.jpg" alt="image-deep-earth">
       <p>Deep earth</p>
       </div>
       <div>
-      <img src="./images/mobile/image-night-acade.jpg" alt="Night arcade">
+      <img src="./images/mobile/image-night-arcade.jpg" alt="Night arcade">
       <p>Night arcade</p>
       </div>
       <div>
-      <img src="./images/mobile/image-soccer-team.jpg" alt="">
+      <img src="./images/mobile/image-soccer-team.jpg" alt="image-soccer-team">
       <p>Soccer team VR</p>
       </div>
       <div>
-      <img src="./images/mobile/image-grid.jpg" alt="">
+      <img src="./images/mobile/image-grid.jpg" alt="image-grid">
       <p>The grid</p>
       </div>
       <div>
-      <img src="./images/mobile/image-from-above.jpg" alt="">
+      <img src="./images/mobile/image-from-above.jpg" alt="image-from-above">
       <p>From up above VR</p>
       </div>
       <div>
-      <img src="./images/mobile/image-pocket-borealis.jpg" alt="">
+      <img src="./images/mobile/image-pocket-borealis.jpg" alt="image-pocket-borealis">
       <p>Pocket borealis</p>
       </div>
       <div>
-      <img src="./images/mobile/image-curiosity.jpg" alt="">
+      <img src="./images/mobile/image-curiosity.jpg" alt="image-curiosity">
       <p>The curiosity</p>
       </div><div>
-      <img src="./images/mobile/image-fisheye.jpg" alt="">
+      <img src="./images/mobile/image-fisheye.jpg" alt="image-fisheye">
       <p>Make it fisheye</p>
       </div>
     </div>
