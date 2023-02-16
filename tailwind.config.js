@@ -35,6 +35,8 @@ module.exports = {
         "night-mobile": "url(./images/mobile/image-night-arcade.jpg)",
         "soccer-mobile": "url(./images/mobile/image-soccer-team.jpg)",
         "pocket-mobile": "url(./images/mobile/image-pocket-borealis.jpg)",
+        "icon-open": "url(./images/icon-hamburger.svg)",
+        "icon-close": "url(./images/icon-close.svg)",
       },
     },
   },
