@@ -7,3 +7,20 @@
     font-family: Alata, Josephine Sans, system-ui, sans-serif;
   }
 }
+.hamburger-open{
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+#show {
+  z-index: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+#show-p {
+  z-index: 1;
+  align-self: center;
+}
