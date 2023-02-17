@@ -17,6 +17,7 @@
   </style>
 </head>
 <body>
+  <div id="test" class="relative mx-auto md:w-3/4"><p class="bg-red-400"></p>div</div>
   <header class="bg-local bg-hero-mobile bg-no-repeat md:bg-hero-desktop" >
   <!-- Navigation -->
   <nav class="relative container mx-auto p-6">
@@ -26,7 +27,7 @@
         <img src="./images/logo.svg">
       </div>
       <!-- nav links -->
-      <div class="hidden space-x-6 text-white lg:flex">
+      <div class="hidden space-x-6 text-white md:flex">
         <a href="#" class="hover:border-b">About</a>
         <a href="#" class="hover:border-b">Careers</a>
         <a href="#" class="hover:border-b">Events</a>
@@ -34,13 +35,13 @@
         <a href="#" class="hover:border-b">Support</a>
       </div>
       <!-- Hamburger Menu -->
-      <button id="menu-btn" class="block hamburger bg-icon-open md:hidden focus:outline-none">
+      <button id="menu-btn" class="flex hamburger bg-no-repeat bg-icon-open md:hidden focus:outline-none">
         <span class="hamburger-open"></span>
       </button>
     </div>
     <!-- Mobile Menu -->
-    <div class="hidden">
-      <div id="menu" class="absolute flex flex-col items-start self-end py-8 mt-10 space-y-6 font-bold bg-white text-black left-6 right-6 drop-shadow-md sm:w-auto sm:self-center">
+    <div class="md:hidden">
+      <div id="menu" class="hidden absolute flex-col items-start self-end py-8 mt-10 space-y-6 font-bold bg-white text-black left-6 right-6 drop-shadow-md sm:w-auto sm:self-center">
         <a href="#" class="hover:border-b">About</a>
         <a href="#" class="hover:border-b">Careers</a>
         <a href="#" class="hover:border-b">Events</a>
@@ -66,22 +67,22 @@ IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
   <!-- Showcase Section -->
   <section id="showcase">
     <!-- Flex container -->
-    <div class="flex flex-col px-6 mx-auto mt-10 space-y-0 md:flex-row-4 md:space-y-0">
+    <div class="relative flex flex-col px-6 mx-auto items-center mt-10 space-y-0 md:flex-row-4 md:space-y-0">
       <!-- Items -->
       <div class="relative flex flex-col mb-32 space-y-12 md:flex-row md:h-[500px]">
         <!--<img src="./images/mobile/image-interactive.jpg">-->
-        <div id="show"class="md:absolute left-0 flex flex-col bg-local mx-auto w-[100%] bg-no-repeat bg-interactive-mobile h-[448px] md:bg-interactive-desktop md:w-[713px] md:pb-12 md:h-[500px]">
+        <div id="show"class="relative left-0 flex flex-col bg-local w-[100%] bg-no-repeat bg-interactive-mobile h-[448px] md:bg-interactive-desktop md:w-[713px] md:pb-12 md:h-[500px]">
           <!--<div id="hero-p" class="flex flex-col border m-6 p-6 space-y-12 text-center bg-white md:text-left md:-ml-24">-->
-          <div id="show-p" class="absolute w-2 overflow-hidden -ml-[1000px] md:bottom-0 md:right-0 flex flex-col border m-6 p-6 text-left bg-white md:block md:absolute md:w-3/4 ">
-            <div class="mt-12 ml-10 pb-0">
-              <h1 class="font-mono text-5xl mb-6">THE LEADER IN INTERACTIVE VR</h1>
+          <div id="show-p" class="relative w-2 -ml-[1000px] md:bottom-0 md:right-0 flex flex-col border m-6 p-6 text-left bg-white md:block md:absolute md:w-4/5 ">
+            <div class="mt-12 ml-10 pb-0 -ml-[100em] md:-ml-[0]">
+              <h1 class="font-mono text-4xl mb-6">THE LEADER IN INTERACTIVE VR</h1>
               <p class="text-darkGray ">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
               </p>
             </div>
           </div>
         </div>
         <div id="hero-p" class="relative flex flex-col m-6 p-6 space-y-12 text-center bg-white md:hidden">
-          <h1 class="font-mono text-5xl">THE LEADER IN INTERACTIVE VR</h1>
+          <h1 class="font-mono text-4xl">THE LEADER IN INTERACTIVE VR</h1>
           <p class="text-darkGray ">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
           </p>
         </div>
@@ -143,7 +144,7 @@ IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
       </div>
       <!-- Button -->
       <div class="my-16">
-        <a href="#" class="p-3 px-6 pt-2 text-black bg-black border-solid rounded-full baseline hover:bg-black hover:text-white">
+        <a href="#" class="relative p-6 w-[100px] pt-2 text-black text-4xl bg-transparent border border-solid border-4 border-black rounded-lg baseline items-center hover:bg-black hover:text-white">
           See All
         </a>
       </div>
@@ -183,5 +184,9 @@ IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Lexzee</a>.
   </div>
+  <script src="script.js">
+  
+  </script>
+
 </body>
 </html>
