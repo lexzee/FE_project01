@@ -40,7 +40,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      'alata': ['Alata', 'sans-serif'],
+      alata: ['Alata', 'sans-serif'],
       'josefin': ['Josefin Sans', 'sans-serif'],
     },
   },

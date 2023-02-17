@@ -21,7 +21,7 @@
 </head>
 <body>
   <div id="test" class="relative mx-auto md:w-3/4"><p class="bg-red-400"></p>div</div>
-  <header class="bg-local bg-hero-mobile bg-no-repeat md:bg-hero-desktop" >
+  <header class="bg-local bg-center bg-hero-mobile bg-no-repeat md:bg-hero-desktop" >
   <!-- Navigation -->
   <nav class="relative container mx-auto p-6">
     <div class="flex items-center justify-between">
@@ -58,9 +58,9 @@
     <!-- Flex container -->
     <div class="container flex flex-col items-start p-6 mx-auto mt-10 space-y-0 md:flex-row md:space-y-0">
       <!-- Items -->
-      <div class="text-left mb-32 space-y-12 w-full">
-        <h1 class="font-alata text-white border border-4 p-6 max-w-md text-4xl items-left text-left md:text-5xl md:text-left">
-IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
+      <div class="h-auto p-7 text-left mb-32 space-y-12 font-josefin border border-[3px] w-full">
+        <h1 class="text-white max-w-md text-[3.5rem]">
+          IMMERSIVE <br/>EXPERIENCES <br/>THAT <br/>DELIVER
         </h1>
       </div>
     </div>
@@ -74,18 +74,18 @@ IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
       <!-- Items -->
       <div class="relative flex flex-col mb-32 space-y-12 md:flex-row md:h-[500px]">
         <!--<img src="./images/mobile/image-interactive.jpg">-->
-        <div id="show"class="relative left-0 flex flex-col bg-local w-[100%] bg-no-repeat bg-interactive-mobile h-[448px] md:bg-interactive-desktop md:w-[713px] md:pb-12 md:h-[500px]">
+        <div id="show"class="relative left-0 flex flex-col bg-center bg-local w-[100%] bg-no-repeat bg-interactive-mobile h-[448px] md:bg-interactive-desktop md:w-[713px] md:pb-12 md:h-[500px]">
           <!--<div id="hero-p" class="flex flex-col border m-6 p-6 space-y-12 text-center bg-white md:text-left md:-ml-24">-->
           <div id="show-p" class="relative md:bottom-0 md:right-0 flex flex-col border m-6 p-6 text-left bg-white md:block md:absolute md:w-4/5 ">
             <div class="mt-12 ml-10 pb-0">
-              <h1 class="font-mono text-4xl mb-6">THE LEADER IN INTERACTIVE VR</h1>
-              <p class="text-darkGray ">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
+              <h1 class="font-josefin text-4xl mb-6">THE LEADER IN INTERACTIVE VR</h1>
+              <p class="text-darkGray font-alata">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
               </p>
             </div>
           </div>
         </div>
         <div id="hero-p" class="relative flex flex-col m-6 p-6 space-y-12 text-center bg-white md:hidden">
-          <h1 class="font-mono text-4xl">THE LEADER IN INTERACTIVE VR</h1>
+          <h1 class="font-josefin text-4xl">THE LEADER IN INTERACTIVE VR</h1>
           <p class="text-darkGray ">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
           </p>
         </div>
@@ -93,53 +93,53 @@ IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
     </div>
   </section>
   <!-- Features -->
-  <section id="features" class="mx-auto p-6">
+  <section id="features" class="mx-auto p-6 uppercase">
     <!-- Container-->
-    <div class="container max-w-6xl px-5 mx-auto text-center">
+    <div class="container max-w-6xl px-5 mx-auto text-center font-josefin">
       <!-- Heading -->
-      <h1 class="font-mono text-5xl ">OUR CREATIONS</h1>
+      <h1 class="text-[2.9rem]">OUR CREATIONS</h1>
       <!-- Items Container-->
-      <div class="mx-auto flex flex-col mt-24 md:space-x-0 md:space-y-6 text-left uppercase text-[2rem]">
+      <div class="leading-none mx-auto flex flex-col mt-24 md:space-x-0 md:space-y-6 text-left uppercase text-[2rem]">
         <div class="md:flex md:flex-row md:w-full md:items-center md:space-x-6">
         <!-- Item 1 -->
-        <div class="relative bg-local bg-no-repeat bg-deep-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-deep-desktop ">
+        <div class="relative  bg-center bg-local bg-no-repeat bg-deep-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-deep-desktop ">
           <!--<img src="./images/mobile/image-deep-earth.jpg" alt="image-deep-earth">-->
-          <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">Deep <br/>earth</p>
+          <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8 space-y-2">Deep <br/>earth</p>
         </div>
         <!-- Item 2 -->
-        <div class="relative bg-local bg-no-repeat bg-night-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-night-desktop">
+        <div class="relative bg-center bg-local bg-no-repeat bg-night-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-night-desktop">
           <!--<img src="./images/mobile/image-night-arcade.jpg" alt="Night arcade">-->
           <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">Night <br/>arcade</p>
         </div>
         <!-- Item 3 -->
-        <div class="relative bg-local bg-no-repeat bg-soccer-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-soccer-desktop">
+        <div class="relative bg-center bg-local bg-no-repeat bg-soccer-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-soccer-desktop">
           <!--<img src="./images/mobile/image-soccer-team.jpg" alt="image-soccer-team">-->
           <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">Soccer <br/>team VR</p>
         </div>
         <!-- Item 4 -->
-        <div class="relative bg-local bg-no-repeat bg-grid-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-grid-desktop">
+        <div class="relative bg-center bg-local bg-no-repeat bg-grid-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-grid-desktop">
           <!--<img src="./images/mobile/image-grid.jpg" alt="image-grid">-->
           <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">The <br/>grid</p>
         </div>
         </div>
         <div class="md:flex md:flex-row md:w-full md:items-center md:space-x-6">
         <!-- Item 5 -->
-        <div class="relative bg-local bg-no-repeat bg-from-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-from-desktop">
+        <div class="relative bg-centerbg-local bg-no-repeat bg-from-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-from-desktop">
           <!--<img src="./images/mobile/image-from-above.jpg" alt="image-from-above">-->
           <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">From up <br/>above VR</p>
         </div>
         <!-- Item 6 -->
-        <div class="relative bg-local bg-no-repeat bg-pocket-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-pocket-desktop">
+        <div class="relative bg-centerbg-local bg-no-repeat bg-pocket-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-pocket-desktop">
           <!--<img src="./images/mobile/image-pocket-borealis.jpg" alt="image-pocket-borealis">-->
           <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">Pocket <br/>borealis</p>
         </div>
         <!-- Item 7 -->
-        <div class="relative bg-local bg-no-repeat bg-curiosity-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-curiosity-desktop">
+        <div class="relative bg-center bg-local bg-no-repeat bg-curiosity-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-curiosity-desktop">
           <!--<img src="./images/mobile/image-curiosity.jpg" alt="image-curiosity">-->
           <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">The <br/>curiosity</p>
         </div>
         <!-- Item 8 -->
-        <div class="relative bg-local bg-no-repeat bg-fish-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-fish-desktop md:bg-fish-desktop">
+        <div class="relative bg-center bg-local bg-no-repeat bg-fish-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-fish-desktop md:bg-fish-desktop">
           <!--<img src="./images/mobile/image-fisheye.jpg" alt="image-fisheye">-->
           <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">Make it <br/>fisheye</p>
         </div>
@@ -147,7 +147,7 @@ IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
       </div>
       <!-- Button -->
       <div class="my-16">
-        <a href="#" class="relative p-6 w-[100px] pt-2 text-black text-4xl bg-transparent border border-solid border-4 border-black rounded-lg baseline items-center hover:bg-black hover:text-white">
+        <a href="#" class="font-alata tracking-[.5rem] px-20 p-6 w-[100px] pt-4 text-black text-2xl bg-transparent border border-solid border-2 border-black items-baseline hover:bg-black hover:text-white">
           See All
         </a>
       </div>
@@ -168,13 +168,13 @@ IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
       </div>
     </div>
     <!-- Social links and copyright container -->
-    <div class="flex flex-col mx-auto justify-between space-y-6 md:align-left">
+    <div id="social" class="flex flex-col mx-auto justify-between space-y-6 md:align-left">
       <!-- Social Links -->
-      <div class="flex flex-row mx-auto space-x-6 md:self-end">
-        <a href=""><img src="./images/icon-facebook.svg" style="background-color:black"></a>
-        <a href=""><img src="./images/icon-twitter.svg" style="background-color:black"></a>
-        <a href=""><img src="./images/icon-pinterest.svg" style="background-color:black"></a>
-        <a href=""><img src="./images/icon-instagram.svg" style="background-color:black"></a>
+      <div class="flex flex-row mx-auto space-x-6">
+        <a href="" class="hover:border-b hover:border-white pb-2"><img src="./images/icon-facebook.svg" style="background-color:black"></a>
+        <a href="" class="hover:border-b hover:border-white"><img src="./images/icon-twitter.svg" style="background-color:black"></a>
+        <a href="" class="hover:border-b hover:border-white"><img src="./images/icon-pinterest.svg" style="background-color:black"></a>
+        <a href="" class="hover:border-b hover:border-white"><img src="./images/icon-instagram.svg" style="background-color:black"></a>
       </div>
       <!-- Copyright -->
       <div class="justify-between mb-12 text-darkGray">
