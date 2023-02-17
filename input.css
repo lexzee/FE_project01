@@ -1,12 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 @layer base {
   html {
-    font-family: Alata, Josephine Sans, system-ui, sans-serif;
+    font-family: 'Alata', 'Josefin Sans', system-ui, sans-serif;
   }
 }
+
 .hamburger-open{
   cursor: pointer;
   width: 24px;
@@ -19,8 +22,22 @@
   padding: 0;
   justify-content: center;
 }
+#menu {
+  padding: 2.5em;
+}
 
 #show-p {
   z-index: 1;
   align-self: center;
+}
+
+@media (min-width: 300px) {
+  #show-p {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  #show-p {
+    display: block;
+  }
 }

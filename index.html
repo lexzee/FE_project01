@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Alata">
   <!--<script src="https://cdn.tailwindcss.com"></script>-->
   
   <title>Frontend Mentor | Loopstudios landing page</title>
@@ -14,7 +15,9 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    /**@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');**/
+    </style>
 </head>
 <body>
   <div id="test" class="relative mx-auto md:w-3/4"><p class="bg-red-400"></p>div</div>
@@ -27,7 +30,7 @@
         <img src="./images/logo.svg">
       </div>
       <!-- nav links -->
-      <div class="hidden space-x-6 text-white md:flex">
+      <div class="font-alata hidden space-x-6 text-white md:flex">
         <a href="#" class="hover:border-b">About</a>
         <a href="#" class="hover:border-b">Careers</a>
         <a href="#" class="hover:border-b">Events</a>
@@ -41,7 +44,7 @@
     </div>
     <!-- Mobile Menu -->
     <div class="md:hidden">
-      <div id="menu" class="hidden absolute flex-col items-start self-end py-8 mt-10 space-y-6 font-bold bg-white text-black left-6 right-6 drop-shadow-md sm:w-auto sm:self-center">
+      <div id="menu" class="font-alata hidden absolute flex-col items-start self-end py-8 mt-10 space-y-6 font-bold bg-white text-black left-6 right-6 drop-shadow-md sm:w-auto sm:self-center">
         <a href="#" class="hover:border-b">About</a>
         <a href="#" class="hover:border-b">Careers</a>
         <a href="#" class="hover:border-b">Events</a>
@@ -56,7 +59,7 @@
     <div class="container flex flex-col items-start p-6 mx-auto mt-10 space-y-0 md:flex-row md:space-y-0">
       <!-- Items -->
       <div class="text-left mb-32 space-y-12 md:w-1/2">
-        <h1 class="font-mono text-white border border-4 p-6 max-w-md text-4xl font-bold items-left text-left md:text-5xl md:text-left">
+        <h1 class="font-josefin text-white border border-4 p-6 max-w-md text-4xl items-left text-left md:text-5xl md:text-left">
 IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
         </h1>
       </div>
@@ -73,8 +76,8 @@ IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
         <!--<img src="./images/mobile/image-interactive.jpg">-->
         <div id="show"class="relative left-0 flex flex-col bg-local w-[100%] bg-no-repeat bg-interactive-mobile h-[448px] md:bg-interactive-desktop md:w-[713px] md:pb-12 md:h-[500px]">
           <!--<div id="hero-p" class="flex flex-col border m-6 p-6 space-y-12 text-center bg-white md:text-left md:-ml-24">-->
-          <div id="show-p" class="relative w-2 -ml-[1000px] md:bottom-0 md:right-0 flex flex-col border m-6 p-6 text-left bg-white md:block md:absolute md:w-4/5 ">
-            <div class="mt-12 ml-10 pb-0 -ml-[100em] md:-ml-[0]">
+          <div id="show-p" class="relative md:bottom-0 md:right-0 flex flex-col border m-6 p-6 text-left bg-white md:block md:absolute md:w-4/5 ">
+            <div class="mt-12 ml-10 pb-0">
               <h1 class="font-mono text-4xl mb-6">THE LEADER IN INTERACTIVE VR</h1>
               <p class="text-darkGray ">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
               </p>

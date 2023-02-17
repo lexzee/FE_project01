@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     screen: {
      sm: '375px',
-     md: '525px',
+     md: '728px',
      lg: '1440px',
     },
     extend: {
@@ -38,6 +38,10 @@ module.exports = {
         "icon-open": "url(./images/icon-hamburger.svg)",
         "icon-close": "url(./images/icon-close.svg)",
       },
+    },
+    fontFamily: {
+      'alata': ['Alata', 'sans-serif'],
+      'josefin': ['Josefin Sans', 'sans-serif'],
     },
   },
   plugins: [],

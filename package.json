@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/lexzee/Loopstudio_LP#readme",
   "devDependencies": {
-    "tailwindcss": "^3.2.6"
+    "tailwindcss": "^3.2.7"
   }
 }
