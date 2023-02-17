@@ -15,8 +15,8 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    /**@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');**/
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
     </style>
 </head>
 <body>
@@ -30,12 +30,12 @@
         <img src="./images/logo.svg">
       </div>
       <!-- nav links -->
-      <div class="font-alata hidden space-x-6 text-white md:flex">
-        <a href="#" class="hover:border-b">About</a>
-        <a href="#" class="hover:border-b">Careers</a>
-        <a href="#" class="hover:border-b">Events</a>
-        <a href="#" class="hover:border-b">Products</a>
-        <a href="#" class="hover:border-b">Support</a>
+      <div class="font-josefin hidden space-x-6 text-white md:flex">
+        <a href="#" class="hover:border-b hover:border-white">About</a>
+        <a href="#" class="hover:border-b hover:border-white">Careers</a>
+        <a href="#" class="hover:border-b hover:border-white">Events</a>
+        <a href="#" class="hover:border-b hover:border-white">Products</a>
+        <a href="#" class="hover:border-b hover:border-white">Support</a>
       </div>
       <!-- Hamburger Menu -->
       <button id="menu-btn" class="flex hamburger bg-no-repeat bg-icon-close bg-icon-open md:hidden focus:outline-none">
@@ -44,12 +44,12 @@
     </div>
     <!-- Mobile Menu -->
     <div class="md:hidden">
-      <div id="menu" class="font-alata hidden absolute flex-col items-start self-end py-8 mt-10 space-y-6 font-bold bg-white text-black left-6 right-6 drop-shadow-md sm:w-auto sm:self-center">
-        <a href="#" class="hover:border-b">About</a>
-        <a href="#" class="hover:border-b">Careers</a>
-        <a href="#" class="hover:border-b">Events</a>
-        <a href="#" class="hover:border-b">Products</a>
-        <a href="#" class="hover:border-b">Support</a>
+      <div id="menu" class="font-alata hidden absolute flex-col items-start self-end py-8 mt-10 space-y-6  bg-white text-black left-6 right-6 drop-shadow-md sm:w-auto sm:self-center uppercase">
+        <a href="#" class="hover:border-b hover:border-black">About</a>
+        <a href="#" class="hover:border-b hover:border-black">Careers</a>
+        <a href="#" class="hover:border-b hover:border-black">Events</a>
+        <a href="#" class="hover:border-b hover:border-black">Products</a>
+        <a href="#" class="hover:border-b hover:border-black">Support</a>
       </div>
     </div>
   </nav>
@@ -58,8 +58,8 @@
     <!-- Flex container -->
     <div class="container flex flex-col items-start p-6 mx-auto mt-10 space-y-0 md:flex-row md:space-y-0">
       <!-- Items -->
-      <div class="text-left mb-32 space-y-12 md:w-1/2">
-        <h1 class="font-josefin text-white border border-4 p-6 max-w-md text-4xl items-left text-left md:text-5xl md:text-left">
+      <div class="text-left mb-32 space-y-12 w-full">
+        <h1 class="font-alata text-white border border-4 p-6 max-w-md text-4xl items-left text-left md:text-5xl md:text-left">
 IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
         </h1>
       </div>
@@ -99,49 +99,49 @@ IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
       <!-- Heading -->
       <h1 class="font-mono text-5xl ">OUR CREATIONS</h1>
       <!-- Items Container-->
-      <div class="mx-auto flex flex-col mt-24 md:space-x-0 md:space-y-6 text-left uppercase">
+      <div class="mx-auto flex flex-col mt-24 md:space-x-0 md:space-y-6 text-left uppercase text-[2rem]">
         <div class="md:flex md:flex-row md:w-full md:items-center md:space-x-6">
         <!-- Item 1 -->
-        <div class="relative bg-local bg-no-repeat bg-deep-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-deep-desktop">
+        <div class="relative bg-local bg-no-repeat bg-deep-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-deep-desktop ">
           <!--<img src="./images/mobile/image-deep-earth.jpg" alt="image-deep-earth">-->
-          <p class="w-[80px] absolute bottom-0 left-0 ml-8 mb-8">Deep earth</p>
+          <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">Deep <br/>earth</p>
         </div>
         <!-- Item 2 -->
         <div class="relative bg-local bg-no-repeat bg-night-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-night-desktop">
           <!--<img src="./images/mobile/image-night-arcade.jpg" alt="Night arcade">-->
-          <p class="w-[80px] absolute bottom-0 left-0 ml-8 mb-8">Night arcade</p>
+          <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">Night <br/>arcade</p>
         </div>
         <!-- Item 3 -->
         <div class="relative bg-local bg-no-repeat bg-soccer-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-soccer-desktop">
           <!--<img src="./images/mobile/image-soccer-team.jpg" alt="image-soccer-team">-->
-          <p class="w-[80px] absolute bottom-0 left-0 ml-8 mb-8">Soccer team VR</p>
+          <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">Soccer <br/>team VR</p>
         </div>
         <!-- Item 4 -->
         <div class="relative bg-local bg-no-repeat bg-grid-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-grid-desktop">
           <!--<img src="./images/mobile/image-grid.jpg" alt="image-grid">-->
-          <p class="w-[80px] absolute bottom-0 left-0 ml-8 mb-8">The grid</p>
+          <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">The <br/>grid</p>
         </div>
         </div>
         <div class="md:flex md:flex-row md:w-full md:items-center md:space-x-6">
         <!-- Item 5 -->
         <div class="relative bg-local bg-no-repeat bg-from-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-from-desktop">
           <!--<img src="./images/mobile/image-from-above.jpg" alt="image-from-above">-->
-          <p class="w-[80px] absolute bottom-0 left-0 ml-8 mb-8">From up above VR</p>
+          <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">From up <br/>above VR</p>
         </div>
         <!-- Item 6 -->
         <div class="relative bg-local bg-no-repeat bg-pocket-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-pocket-desktop">
           <!--<img src="./images/mobile/image-pocket-borealis.jpg" alt="image-pocket-borealis">-->
-          <p class="w-[80px] absolute bottom-0 left-0 ml-8 mb-8">Pocket borealis</p>
+          <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">Pocket <br/>borealis</p>
         </div>
         <!-- Item 7 -->
         <div class="relative bg-local bg-no-repeat bg-curiosity-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-curiosity-desktop">
           <!--<img src="./images/mobile/image-curiosity.jpg" alt="image-curiosity">-->
-          <p class="w-[80px] absolute bottom-0 left-0 ml-8 mb-8">The curiosity</p>
+          <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">The <br/>curiosity</p>
         </div>
         <!-- Item 8 -->
         <div class="relative bg-local bg-no-repeat bg-fish-mobile space-y-6  mb-12 w-[auto] h-[240px] text-white md:w-1/4 md:h-[470px] md:bg-fish-desktop md:bg-fish-desktop">
           <!--<img src="./images/mobile/image-fisheye.jpg" alt="image-fisheye">-->
-          <p class="w-[80px] absolute bottom-0 left-0 ml-8 mb-8">Make it fisheye</p>
+          <p class="w-auto absolute bottom-0 left-0 ml-8 mb-8">Make it <br/>fisheye</p>
         </div>
         </div>
       </div>
@@ -160,11 +160,11 @@ IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
       <img src="./images/logo.svg" alt="Loopstudios Logo" class="flex flex-col mb-12 md:max-w-sm">
       <!-- Pages container-->
       <div class="flex flex-col space-y-6 text-center align-center md:flex-row md:space-y-0 md:space-x-6">
-        <a href="#" class="hover:border-b">About</a>
-        <a href="#" class="hover:border-b">Careers</a>
-        <a href="#" class="hover:border-b">Events</a>
-        <a href="#" class="hover:border-b">Products</a>
-        <a href="#" class="hover:border-b">Support</a>
+        <a href="#" class="hover:border-b hover:border-white">About</a>
+        <a href="#" class="hover:border-b hover:border-white">Careers</a>
+        <a href="#" class="hover:border-b hover:border-white">Events</a>
+        <a href="#" class="hover:border-b hover:border-white">Products</a>
+        <a href="#" class="hover:border-b hover:border-white">Support</a>
       </div>
     </div>
     <!-- Social links and copyright container -->
@@ -177,7 +177,7 @@ IMMERSIVE <br>EXPERIENCES <br>THAT <br>DELIVER
         <a href=""><img src="./images/icon-instagram.svg" style="background-color:black"></a>
       </div>
       <!-- Copyright -->
-      <div class="justify-between mb-12">
+      <div class="justify-between mb-12 text-darkGray">
         &copy; 2021 Loopstudios. All rights reserved.
       </div>
     </div>

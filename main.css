@@ -665,6 +665,14 @@ html {
   width: auto;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.w-auto {
+  width: auto;
+}
+
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -874,6 +882,22 @@ html {
   line-height: 1;
 }
 
+.text-\[2\.5em\] {
+  font-size: 2.5em;
+}
+
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -937,8 +961,22 @@ html {
   }
 }
 
+.hover\:border:hover {
+  border-width: 1px;
+}
+
 .hover\:border-b:hover {
   border-bottom-width: 1px;
+}
+
+.hover\:border-black:hover {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 0% / var(--tw-border-opacity));
+}
+
+.hover\:border-white:hover {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 0% 100% / var(--tw-border-opacity));
 }
 
 .hover\:bg-black:hover {
